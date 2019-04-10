@@ -1,0 +1,99 @@
+{
+	"id": "a2e2368d-e4e6-0b08-5b44-22089e1d89d0",
+	"name": "quick-notes-api",
+	"description": "",
+	"order": [
+		"d884d0dc-ad8d-ae3d-d866-f7f9808422f2",
+		"42f9d4fa-c94c-d32a-b11a-9d16c793a5d8",
+		"3c86fa1b-8a7a-0c42-89e2-639dcfc46276"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1554624909474,
+	"owner": "2453245",
+	"public": false,
+	"requests": [
+		{
+			"id": "3c86fa1b-8a7a-0c42-89e2-639dcfc46276",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3001/notes/5ca9dc9b4cbaf5324f821c68",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a2e2368d-e4e6-0b08-5b44-22089e1d89d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "fetch by id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1554636053328,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "42f9d4fa-c94c-d32a-b11a-9d16c793a5d8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/notes/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554635992039,
+			"name": "Post new notes",
+			"description": "",
+			"collectionId": "a2e2368d-e4e6-0b08-5b44-22089e1d89d0",
+			"responses": [],
+			"rawModeData": "{\"title\":\"My second Note\",\"content\":\"Testing the api with second note\"}"
+		},
+		{
+			"id": "d884d0dc-ad8d-ae3d-d866-f7f9808422f2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/notes/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554635887088,
+			"name": "get all notes",
+			"description": "",
+			"collectionId": "a2e2368d-e4e6-0b08-5b44-22089e1d89d0",
+			"responses": [],
+			"rawModeData": "{\"title\":\"My first updated Note\",\"content\":\"Testing the api with first note\"}"
+		}
+	]
+}
